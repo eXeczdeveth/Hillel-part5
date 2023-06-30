@@ -3,6 +3,103 @@ style {
   font-family: 'Roboto', sans-serif;
   font-family: 'Roboto Mono', monospace;
 }
-h1{
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+h3 {
   font-family: 'Roboto Mono';
+}
+
+.text-medium {
+  font-family: 'Roboto Mono';
+  font-size: medium;
+  font-weight: 700;
+  color: black;
+}
+
+.symbol {
+  color: red;
+  font-weight: 900;
+}
+
+.text-italic {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  color: blue;
+}
+
+#header {
+  color: green;
+}
+
+.button {
+  color: red;
+}
+
+.red.text {
+  color: purple;
+}
+
+ul li {
+  color: orange;
+}
+
+.red {
+  color: red;
+}
+
+.aqua-text{
+  color: aqua !important;
+}
+
+.highlight {
+  background-color: yellow;
+  color: black;
+}
+
+#header-pink{
+  color: pink;
+}
+
+.green{
+  color: green;
+}
+
+.priority {
+  color: blue;
+}
+
+.container .priority{
+  color: aqua;
+}
+
+.orange {
+  color: black;
+}
+
+#custom {
+  background-color: gray;
+}
+
+#custom-blue {
+  background-color: blue;
+}
+
+#custom {
+  background-color: yellow;
 }

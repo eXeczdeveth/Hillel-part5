@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Selectors</title>
   <link rel="stylesheet" href="./style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,8 +15,85 @@
 
 <body>
   <h1>
-    Hello World
+    Разновидности селекторов
   </h1>
+  <hr>
+  <p><span class="text-medium">Селекторы в CSS </span> <span class="symbol">(</span> <span class="text-italic">Cascading
+      Style Sheets</span><span class="symbol">)</span><br>
+    используются для выбора элементов на веб-странице <br> и задания для них
+    стилей. Ниже приведены примеры <br>различных типов селекторов и описание того <br>какие элементы будут выбраны на
+    странице.</p>
+
+  <ul><span class="text-medium">Селектор по названию элемента: div,h1,p и.т.д</span>
+    <ul>Пример селектора: <span class="symbol">P</span>
+      <li>
+        Описание:Этот селектор выбирает все элементы <span class="symbol">P</span> на странице, то есть абзацы.
+      </li>
+    </ul>
+  </ul>
+
+  <ul><span class="text-medium">Селектор по индификатору (id):</span>
+    <ul>Пример селектора: <span class="symbol">#header</span>
+      <li>
+        Описание:Этот селектор выбирает элемент с уникальным идентификатором <span class="symbol">"header"</span><br>
+        например, div id="header"
+      </li>
+    </ul>
+  </ul>
+
+  <ul><span class="text-medium">Селектор по классу: .class</span>
+    <ul>Пример селектора: <span class="symbol">.button</span>
+      <li>
+        Описание:Этот селектор выбирает все элементы с классом<span class="symbol">"button"</span><br> Например, button
+        class="button"на странице,то есть абзацы.
+      </li>
+    </ul>
+  </ul>
+
+  <ul><span class="text-medium">Селектор по нескольким классам:</span>
+    <ul>Пример селектора: <span class="symbol">.red.text</span>
+      <li>
+        Описание:Этот селектор выбирает все элементы, <br>которые имеют одновременно классы <span class="symbol">"red" и
+          "text"</span><br> Например, span class="red text".
+      </li>
+    </ul>
+  </ul>
+
+  <ul><span class="text-medium">Селектор по вложенности:</span>
+    <ul>Пример селектора: <span class="symbol">ul li</span>
+      <li>
+        Описание:Этот селектор выбирает все элементы <span class="symbol">li</span> <br>которые находятся внутри
+        элемента
+        <span class="symbol">ul</span> <br>Это используется для стилизации списков.
+      </li>
+    </ul>
+  </ul>
+  <hr>
+  <h2>Пример использования селекторов</h2>
+  <p>Этот абзац имеет синий цвет текста.</p>
+  <div id="header">Этот элемент имеет зеленый цвет текста.</div>
+  <button class="button">Эта кнопка имеет красный цвет текста.</button><br>
+  <span class="red text">Этот элемент имеет фиолетовый цвет текста.</span>
+  <ul>
+    <li>Элемент списка 1 с оранжевым цветом текста.</li>
+    <li>Элемент списка 2 с оранжевым цветом текста.</li>
+  </ul>
+  <div id="custom-blue">Произвольный текст синего фона</div>
+  <hr>
+  <h2>
+    Второй пример использования селекторов
+  </h2>
+  <p class="red">Этот абзац имеет красный цвет текста.</p><br>
+  <div id="header-pink">Этот элемент имеет розовый цвет текста.</div>
+  <button class="button highlight">Эта кнопка имеет черный цвет текста с жёлтым фоном.</button><br>
+  <span class="red text aqua-text">Этот элемент имеет голубой цвет текста.</span>
+  <ul class="container">
+    <li class="orange">Элемент списка 1 с чёрным цветом текста.</li>
+    <li class="blue priority">Элемент списка 2 с синим цветом текста.</li>
+    <li class="green">Элемент списка 3 с зелёным цветом текста.</li>
+  </ul>
+  <div id="custom">Произвольный текст жёлтого фона</div>
+  <hr>
 </body>
 
 </html>
